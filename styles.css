@@ -1,0 +1,251 @@
+/* command shift p for auto intendition */
+
+@font-face {
+    font-family: avenir ;
+    src: url(avenir-roman.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: avenir;
+}
+
+body{
+    font-family:avenir-ff ;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: #31006D;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+@media print {
+    header{
+     background-color: green;
+    }
+}
+
+
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+#menu a:hover {
+    color: red;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav{
+    float: right;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+/* Intro Section */
+
+
+#intro{
+    background-color: #31006D;
+    background-image: url(images/banner-pattern.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 69px;
+}
+
+h1{
+    color: white;
+    line-height: 40px;
+}
+
+#white-box{
+    background-color: white;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 40px 20px;
+}
+
+#white-box small{
+    color: #7F7F7F;
+}
+
+#white-box h2{
+    color: #31006E;
+    padding: 20px 0;
+}
+
+#white-box p{
+    color: #EB008C;
+    padding-bottom: 20px;
+}
+
+/* about section*/
+
+#about{
+    background-image: url(images/building.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#about-page{
+    width: 50%;
+    padding: 80px 0;
+ 
+}
+
+#about-page p{
+    padding: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EB008C;
+}
+
+/* parallax section */
+
+#parallax{
+    background-image: url(images/parallax-home.jpg);
+    height: 400px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* join team */
+
+#join-team{
+    background-image: url(images/join.png);
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+
+
+
+#join-team .container h3{
+    text-align: center;
+    color: #2F3192;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+#join-team .container h4, h5{
+    text-align: center;
+}
+
+#join-team .container h5{
+    font-size: 26px;
+    text-align: left;
+    margin-left: 550px;
+}
+
+
+
+.btn{
+    justify-content: center;
+    display: flex;
+}
+
+.button{
+    border: 2px solid rebeccapurple;
+    padding: 20px;
+    margin: 20px;
+}
+
+.button:hover{
+    border: 2px solid rebeccapurple;
+    padding: 20px;
+    margin: 20px;
+    background-color: #EB008C;
+    color: white;
+    
+}
+
+#search{
+    text-align: center;
+}
+
+
+#join-team a{
+    font-size: 20px;
+    display: block;
+    
+}
+
+#join-team a i{
+    float: right;
+    color: #31006D;
+    font-size: 20px;
+}
+
+/* Footer Section */
+
+
+footer{
+    background-color: #EAEAEA;
+    padding: 40px;
+}
+
+#navigate{
+    display: flex;
+    width: 75%;
+    justify-items: left;
+    
+}
+
+#contact{
+    width: 25%;
+    
+}
+
+#footer-wrap{
+    display: flex;
+}
+
+#news, #drop{
+    padding: 40px;
+}
+
+#opening{
+    padding-top: 40px;
+}
+
+#navigate h2{
+    display: inline-block;
+    height: auto;
+}
+
+#copyright{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
